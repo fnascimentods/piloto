@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const Product = mongoose.model('produto')
+const Product = mongoose.model('product') 
 
 module.exports = {
     async index(require, response) {

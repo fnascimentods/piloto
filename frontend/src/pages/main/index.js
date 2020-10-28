@@ -47,8 +47,8 @@ export default class Main extends Component {
         <div className="product-list">
             {this.state.products.map(product => (
                 <article key={product._id}>
-                    <strong>{product.titulo}</strong>
-                    <p>{product.descricao}</p>
+                    <strong>{product.title}</strong>
+                    <p>{product.description}</p>
 
                     <Link to={`/products/${product._id}`}>Detalhes</Link>
                 </article>
